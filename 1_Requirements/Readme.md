@@ -55,7 +55,7 @@
 
 | ID | Low Level Requirements for HLR5|
 | -------- | -------------- |
-| LLR5.1 | If the User Button is pressed FIVTH times, the red LED will be off |
+| LLR5.1 | If the User Button is pressed FIFTH time, the red LED will be off |
 
 ## Best Methods To Be Followed
 
