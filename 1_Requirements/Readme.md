@@ -8,8 +8,17 @@
 
 ## Features
 
-![Screenshot (105)](https://user-images.githubusercontent.com/62429376/167068935-6c3e8f17-1708-4a77-9bd0-ddd2fd4e5171.png)
+ * If the User button is pressed Once, the red LED will be on    
+ 
+ * If the User Button is pressed TWICE, Blue,Green,Orange LED's come ON at a time with set of frequency
 
+ * If the User Button is pressed THIRD time, ON All LED's in CLOCKWISE manner an speeed will increase 
+
+ * If the User Button is pressed FOURTH time ,all LED's on anticlock manner
+
+ * If the User Button is pressed FIFTH time, the red LED will be off 
+
+![Screenshot (105)](https://user-images.githubusercontent.com/62429376/167068935-6c3e8f17-1708-4a77-9bd0-ddd2fd4e5171.png)
 
 ## State of art
 
@@ -27,35 +36,20 @@
 
 # High Level Requirements
 
-| ID | High Level Requirements |
-| -------- | -------------- |
-| HLR1 | It will start the car|
-| HLR2 | It will start the wiper |
-| HLR3 | It shall seen speed of the wiper work |
-| HLR4 | It will stop the wiper |
-| HLR5 | It will stop the car |
+| ID | Description | Requirement | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | SSD or HARD DRIVE  | 1GB TO 20 GB | IMPLEMENTED | 
+| HR02 | OPERATING SYSTEM  | WINDOWS |  IMPLEMENTED  |
+| HR03 | PROGRAMMING LANGUAGE | EMBEDDED C |  IMPLEMENTED  |
+| HR04 | ARM BASED MICROCONTROLLER | STM32F407VGT6 BOARD  |  IMPLEMENTED  |
 
 # Low Level Requirements
 
-| ID | Low Level Requirements for HLR1|     
-| ----- | ----- | 
-| LLR1.1 | If the User button is pressed Once, the red LED will be on |      
-
-| ID | Low Level Requirements for HLR2|
-| ----- | ----- |
-| LLR2.1 | If the User Button is pressed TWICE, Blue,Green,Orange LED's come ON at a time with set of frequency |
-
-| ID | Low Level Requirements for HLR3| 
-| -------- | -------------- |
-| LLR3.1 |  If the User Button is pressed THIRD time, ON All LED's in CLOCKWISE manner an speeed will increase |  
-
-| ID | Low Level Requirements for HLR4|
-| -------- | -------------- |
-| LLR4.1 | If the User Button is pressed FOURTH time ,all LED's on anticlock manner |
-
-| ID | Low Level Requirements for HLR5|
-| -------- | -------------- |
-| LLR5.1 | If the User Button is pressed FIFTH time, the red LED will be off |
+| ID | Description | REQUIREMENT | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | WIPER COMES TO INITIAL POSITION AFTER HIS WORK | LED |  IMPLEMENTED  |
+| LR02 | PROPER SUPPLY TO PINS AND BOARD | POWER SUPPLY | IMPLEMENTED |
+| LR03 | ON AND OFF SWITCH MECHANISM FOR ACTIVATION AND DEACTIVATION OF WIPER BLADES  | SWITCH | IMPLEMENTED |
 
 ## Best Methods To Be Followed
 
