@@ -45,7 +45,7 @@ Wipers are extremely important for driver visibility. If the wipers aren't worki
 
 | Codacy | 
 | ----- |
-|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e1cc53894ec746a2b0719d5ebdce3eb9)](https://www.codacy.com/gh/samanvitha-125/M2_WATERLEVELCONTROL_SYSTEM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=samanvitha-125/M2_WATERLEVELCONTROL_SYSTEM&amp;utm_campaign=Badge_Grade)|
+| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c8b7d9ee70a1471ba62b7edac17bec07)](https://www.codacy.com/gh/samanvitha-125/M3_WiperControl_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=samanvitha-125/M3_WiperControl_System&amp;utm_campaign=Badge_Grade) |
 
 | Codiga Quality Score | Codiga Grade |
 | --------------- | ----------------- |
