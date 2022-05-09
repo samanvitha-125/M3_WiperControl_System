@@ -49,15 +49,16 @@ Wipers are extremely important for driver visibility. If the wipers aren't worki
 
 | Codiga Quality Score | Codiga Grade |
 | --------------- | ----------------- |
-| ![Code QualityScore](https://api.codiga.io/project/32809/score/svg) | ![Code Grade](https://api.codiga.io/project/32809/status/svg) |
+| ![Code QualityScore](https://api.codiga.io/project/33292/score/svg) | ![Code Grade](https://api.codiga.io/project/33292/status/svg) |
 
 ## Code Inspector
 
-<a href="https://app.codiga.io/public/user/github/samanvitha-125">
+<a href="https://app.codiga.io/hub/user/github/samanvitha-125">
    <img src="https://api.codiga.io/public/badge/user/github/samanvitha-125?style=light" alt="codiga badge" />
 </a>
 
-![code inspector](https://user-images.githubusercontent.com/62429376/163700445-fd50d5c4-541f-4da0-bb70-c68b4f4ffcf2.png)
+![Screenshot (119)](https://user-images.githubusercontent.com/62429376/167423203-fadfe07a-4adf-44f3-aabc-38cae58192f2.png)
+
 
 ## Folder Structure
 
