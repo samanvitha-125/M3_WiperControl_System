@@ -39,6 +39,7 @@ Wipers are extremely important for driver visibility. If the wipers aren't worki
 
 | Linux | Cpp check | CI |
 | ---- | ------ | ----- |
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ef82d3f11ab04d0ab7a64f17149a172b)](https://app.codacy.com/gh/samanvitha-125/M3_WiperControl_System?utm_source=github.com&utm_medium=referral&utm_content=samanvitha-125/M3_WiperControl_System&utm_campaign=Badge_Grade_Settings)
 |[![Build Linux](https://github.com/samanvitha-125/M3_WiperControl_System/actions/workflows/Build%20Linux.yml/badge.svg)](https://github.com/samanvitha-125/M3_WiperControl_System/actions/workflows/Build%20Linux.yml) | [![Cpp Check](https://github.com/samanvitha-125/M3_WiperControl_System/actions/workflows/Cpp%20check.yml/badge.svg)](https://github.com/samanvitha-125/M3_WiperControl_System/actions/workflows/Cpp%20check.yml)  | [![CI](https://github.com/samanvitha-125/M3_WiperControl_System/actions/workflows/CI.yml/badge.svg)](https://github.com/samanvitha-125/M3_WiperControl_System/actions/workflows/CI.yml) |
 
 ## Codacy and Codiga Badges 
