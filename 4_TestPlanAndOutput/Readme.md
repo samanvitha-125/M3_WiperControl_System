@@ -1,19 +1,22 @@
+
 ## High Level Test Plan
-
-| ID | Description | Requirement | Expected Output | Actual Output | Status | 
-| ----- | ----- | ------- | ------| ------- | ---------|
-| HL01 | SSD or HARD DRIVE  | 1GB TO 20 GB | SUCCESS | SUCCESS |IMPLEMENTED | 
-| HL02 | OPERATING SYSTEM  | WINDOWS | SUCCESS | SUCCESS | IMPLEMENTED  |
-| HL03 | PROGRAMMING LANGUAGE | EMBEDDED C | SUCCESS | SUCCESS |  IMPLEMENTED  |
-| HL04 | ARM BASED MICROCONTROLLER | STM32F407VGT6 BOARD  | SUCCESS | SUCCESS | IMPLEMENTED  |
-
-## Low Level Test Plan
 
 | ID | Description | REQUIREMENT | Expected Output | Actual Output | Status |
 | ------ | --------- | ------ | ----- | ----- | ----- |
-| LL01 | WIPER COMES TO INITIAL POSITION AFTER HIS WORK | LED | SUCCESS | SUCCESS | IMPLEMENTED  |
-| LL02 | PROPER SUPPLY TO PINS AND BOARD | POWER SUPPLY | SUCCESS | SUCCESS | IMPLEMENTED |
-| LL03 | ON AND OFF SWITCH MECHANISM FOR ACTIVATION AND DEACTIVATION OF WIPER BLADES  | SWITCH | SUCCESS | SUCCESS | IMPLEMENTED |
+| HL01 | WIPER COMES TO INITIAL POSITION AFTER HIS WORK | LED | SUCCESS | SUCCESS | IMPLEMENTED  |
+| HL02 | PROPER SUPPLY TO PINS AND BOARD | POWER SUPPLY | SUCCESS | SUCCESS | IMPLEMENTED |
+| HL03 | ON AND OFF SWITCH MECHANISM FOR ACTIVATION AND DEACTIVATION OF WIPER BLADES  | SWITCH | SUCCESS | SUCCESS | IMPLEMENTED |
+
+
+## LOW LEVEL TEST PLAN
+
+| Test ID (for LOCK)| Description | Input | Expected output | Actual Output | passed/not |
+| --- | --- | --- | --- | --- | --- |
+| LL01 | Check for Engine On | USER BUTTON PRESS ONCE  |  ON all LED as per ENCRYPTION |  ON all LED as per ENCRYPTION | ✅ |
+| LL02 | Check for Engine Off | USER BUTTON PRESS TWICE  |  OFF all LED as per ENCRYPTION |  OFF all LED as per ENCRYPTION | ✅ |
+| LL03 | Check for Wipers On | USER BUTTON PRESS THREE TIMES |  ON LED's ONCE clockwise as per ENCRYPTION |   ON LED's ONCE clockwise as per ENCRYPTION | ✅ |
+| LL04 | Check for Wipers Off | USER BUTTON PRESS FOUR TIMES |  ON LED's once anti-clockwise as per ENCRYPTION |   ON LED's once anti-clockwise as per ENCRYPTION | ✅ |
+| LL05 | Check for btn_press() | counts no of button press  | 1/2/3/4 | 1/2/3/4 | ✅ |
 
 # OUTPUT VIDEO
 
