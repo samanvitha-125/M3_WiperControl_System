@@ -18,6 +18,12 @@
 | LL04 | Check for Wipers Off | USER BUTTON PRESS FOUR TIMES |  ON LED's once anti-clockwise as per ENCRYPTION |   ON LED's once anti-clockwise as per ENCRYPTION | ✅ |
 | LL05 | Check for btn_press() | counts no of button press  | 1/2/3/4 | 1/2/3/4 | ✅ |
 
+## Scenario:
+* Ignition Key Position at ACC: The Red LED is ON, if the user button is pressed and held for 2 secs
+* Wiper ON: On press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz
+* Wiper OFF: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2
+* Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs
+
 # OUTPUT VIDEO
 
 https://user-images.githubusercontent.com/62429376/167387308-8435a9da-6f4e-4c11-9b20-61ad71fd8822.mp4
@@ -28,7 +34,7 @@ https://user-images.githubusercontent.com/62429376/167387308-8435a9da-6f4e-4c11-
 
 ![Screenshot (106)](https://user-images.githubusercontent.com/62429376/167388539-46c3632a-74a7-4bb7-98e7-c61324d76512.png)
 
-## Switch turned on 
+## Ignition Key Position at ACC:
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/62429376/167388545-68d0f225-2156-428b-b6a4-75d02bdfbbe0.png)
 
@@ -47,5 +53,9 @@ https://user-images.githubusercontent.com/62429376/167387308-8435a9da-6f4e-4c11-
 ![Screenshot (114)](https://user-images.githubusercontent.com/62429376/167388596-ccefc6a7-1a24-4d43-86cf-8208a7d20ff7.png)
 
 ## Wiper turned off
+
+![Screenshot (107)](https://user-images.githubusercontent.com/62429376/167388545-68d0f225-2156-428b-b6a4-75d02bdfbbe0.png)
+
+## Ignition Key Position at Lock:
 
 ![Screenshot (106)](https://user-images.githubusercontent.com/62429376/167388539-46c3632a-74a7-4bb7-98e7-c61324d76512.png)
