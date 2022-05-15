@@ -184,22 +184,39 @@ for more details refer to: [GitHub](https://github.com/SharathN25)
 
 ![Screenshot (103)](https://user-images.githubusercontent.com/62429376/167066480-c12c3086-1d1b-426f-99c4-815b6db4368f.png)
 
-# High Level Requirements
+## High level Requirements
 
-| ID | Description | Requirement | Status | 
-| ----- | ----- | ------- | ---------|
-| HR01 | SSD or HARD DRIVE  | 1GB TO 20 GB | IMPLEMENTED | 
-| HR02 | OPERATING SYSTEM  | WINDOWS |  IMPLEMENTED  |
-| HR03 | PROGRAMMING LANGUAGE | EMBEDDED C |  IMPLEMENTED  |
-| HR04 | ARM BASED MICROCONTROLLER | STM32F407VGT6 BOARD  |  IMPLEMENTED  |
+  <html>
+<body>
+<!--StartFragment-->
 
-# Low Level Requirements
+ID | Description
+-- | --
+HLR-1 | User shall be able to ON the motor
+HLR-2 | User shall be able to ON the wipers and controll the speed of wipers 
+HLR-3 | User shall be able to OFF the wiper
+HLR-4 | User shall be able to OFF the motor
 
-| ID | Description | REQUIREMENT | Status |
-| ------ | --------- | ------ | ----- |
-| LR01 | WIPER COMES TO INITIAL POSITION AFTER HIS WORK | LED |  IMPLEMENTED  |
-| LR02 | PROPER SUPPLY TO PINS AND BOARD | POWER SUPPLY | IMPLEMENTED |
-| LR03 | ON AND OFF SWITCH MECHANISM FOR ACTIVATION AND DEACTIVATION OF WIPER BLADES  | SWITCH | IMPLEMENTED |
+<!--EndFragment-->
+</body>
+</html>
+
+## Low level Requirements
+
+<html>
+<body>
+<!--StartFragment-->
+
+ID | Description
+-- | --
+LLR-1 | When user presses the switch for first time for two seconds, The Red LED is ON
+LLR-2 | When user presses the button twice,  Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz
+LLR-3 | When user presses the button  fourth time The LED glow pattern stops 
+LLR-4 | Again pressing the button for two seconds The Red LED is OFF
+
+<!--EndFragment-->
+</body>
+</html>
 
 ## Best Methods To Be Followed
 
@@ -232,22 +249,42 @@ for more details refer to: [GitHub](https://github.com/SharathN25)
 
  * If the User Button is pressed FIFTH time, the red LED will be off 
 
-## High Level Test Plan
-
-| ID | Description | Requirement | Status | 
-| ----- | ----- | ------- | ---------|
-| HL01 | SSD or HARD DRIVE  | 1GB TO 20 GB | IMPLEMENTED | 
-| HL02 | OPERATING SYSTEM  | WINDOWS |  IMPLEMENTED  |
-| HL03 | PROGRAMMING LANGUAGE | EMBEDDED C |  IMPLEMENTED  |
-| HL04 | ARM BASED MICROCONTROLLER | STM32F407VGT6 BOARD  |  IMPLEMENTED  |
-
-## Low Level Test Plan
-
-| ID | Description | REQUIREMENT | Status |
-| ------ | --------- | ------ | ----- |
-| LL01 | WIPER COMES TO INITIAL POSITION AFTER HIS WORK | LED |  IMPLEMENTED  |
-| LL02 | PROPER SUPPLY TO PINS AND BOARD | POWER SUPPLY | IMPLEMENTED |
-| LL03 | ON AND OFF SWITCH MECHANISM FOR ACTIVATION AND DEACTIVATION OF WIPER BLADES  | SWITCH | IMPLEMENTED |
+# HIGH LEVEL TEST PLAN 
+ 
+<html> 
+<body> 
+<!--StartFragment--> 
+ 
+Test ID | Description | Input | Expected output | Actual Output | status 
+-- | -- | -- | -- | -- | -- 
+01 | Ignition On |  Pressing Button 1st 2sec  | key status | Key Status Displayed |✅ 
+02 | Wiper On | Pressing user button once | Wiper Status-1Hz | Wiper Status Displayed |✅ 
+03 | Wiper On | Pressing user button twice | Wiper Status-4Hz | Wiper Status Displayed |✅ 
+04 | Wiper On | Pressing user button thrice | Wiper Status-8Hz | Wiper Status Displayed |✅ 
+05 | Ignition Off | Pressing Button 1st 2sec  | Ignition key status | key status Displayed |✅ 
+ 
+<!--EndFragment--> 
+</body> 
+</html> 
+ 
+ 
+# LOW LEVEL TEST PLAN 
+ 
+<html> 
+<body> 
+<!--StartFragment--> 
+ 
+Description | Input | Expected output | Actual Output | Status 
+-- | -- | -- | -- | --  
+ignition_on() | User Button Press 1st 2sec | RED LED ON | RED LED ON | ✅ 
+LED cycle | Button Press once | All LEDs ON | All LEDs ON | ✅ 
+LED cycle | Button Press twice | All LEDs ON | All LEDs ON | ✅ 
+LED cycle | Button Press thrice | All LEDs ON | All LEDs ON | ✅ 
+ignition_off() | User Button Press 2nd 2sec | RED LED OFF | RED LED OFF | ✅ 
+ 
+<!--EndFragment--> 
+</body> 
+</html>
 
 ## Scenario:
 * Ignition Key Position at ACC: The Red LED is ON, if the user button is pressed and held for 2 secs
