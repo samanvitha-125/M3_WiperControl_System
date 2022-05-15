@@ -34,22 +34,40 @@
 
 ![Screenshot (103)](https://user-images.githubusercontent.com/62429376/167066480-c12c3086-1d1b-426f-99c4-815b6db4368f.png)
 
-# High Level Requirements
+## High level Requirements
 
-| ID | Description | Requirement | Status | 
-| ----- | ----- | ------- | ---------|
-| HR01 | SSD or HARD DRIVE  | 1GB TO 20 GB | IMPLEMENTED | 
-| HR02 | OPERATING SYSTEM  | WINDOWS |  IMPLEMENTED  |
-| HR03 | PROGRAMMING LANGUAGE | EMBEDDED C |  IMPLEMENTED  |
-| HR04 | ARM BASED MICROCONTROLLER | STM32F407VGT6 BOARD  |  IMPLEMENTED  |
+  <html>
+<body>
+<!--StartFragment-->
 
-# Low Level Requirements
+ID | Description
+-- | --
+HLR-1 | User shall be able to ON the motor
+HLR-2 | User shall be able to ON the wipers and controll the speed of wipers 
+HLR-3 | User shall be able to OFF the wiper
+HLR-4 | User shall be able to OFF the motor
 
-| ID | Description | REQUIREMENT | Status (Implemented/Future) |
-| ------ | --------- | ------ | ----- |
-| LR01 | WIPER COMES TO INITIAL POSITION AFTER HIS WORK | LED |  IMPLEMENTED  |
-| LR02 | PROPER SUPPLY TO PINS AND BOARD | POWER SUPPLY | IMPLEMENTED |
-| LR03 | ON AND OFF SWITCH MECHANISM FOR ACTIVATION AND DEACTIVATION OF WIPER BLADES  | SWITCH | IMPLEMENTED |
+<!--EndFragment-->
+</body>
+</html>
+
+## Low level Requirements
+
+<html>
+<body>
+<!--StartFragment-->
+
+ID | Description
+-- | --
+LLR-1 | When user presses the switch for first time for two seconds, The Red LED is ON
+LLR-2 | When user presses the button twice,  Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz
+LLR-3 | When user presses the button  fourth time The LED glow pattern stops 
+LLR-4 | Again pressing the button for two seconds The Red LED is OFF
+
+<!--EndFragment-->
+</body>
+</html>
+
 
 ## Best Methods To Be Followed
 
